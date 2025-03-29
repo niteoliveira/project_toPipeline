@@ -15,6 +15,9 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(divide(6, 3), 2)
         with self.assertRaises(ValueError):
             divide(1, 0)
+    
+    def new_def(self):
+        print("Ola mundo")
 
 if __name__ == '__main__':
     unittest.main()
