@@ -13,7 +13,7 @@ class TestCalculator(unittest.TestCase):
 
     def test_divide(self):
         self.assertEqual(divide(6, 3), 2)
-        with self.assertRaises(ValueError):
+        with self.assertRaises(ValueError)
             divide(1, 0)
 
 if __name__ == '__main__':
